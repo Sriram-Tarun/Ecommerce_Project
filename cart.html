@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="x-icon" href="icon.png">
+    <title>Online fashion shopping website</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="styyle.css">
+</head>
+
+<body>
+    <script src="script.js" defer></script>
+    <header>
+        <div class="navbar">
+            <div class="nav-logo border">
+                <div class="logo">
+                </div>
+            </div>
+            <div class="categories">
+                <p><a href="Men.html">Men</p></a>
+                <p><a href="Women.html">Women</p></a>
+                <p><a href="About.html">About</p></a>
+                <p><a href="Contact.html">Contact</p></a>
+                <a href="#" id="close"> <i class="fa-solid fa-xmark"></i> </a>
+            </div>
+
+            <div class="nav-search">
+                <input placeholder="Search AJIO" class="search-input">
+                <div class="search-icon">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </div>
+            </div>
+            <div class="nav-login ">
+                <p class="login-1"><a href="">Sign in / Join AJIO</p></a>
+                <p class="login-2"><a href="">Customer Care</p></a>
+            </div>
+
+            <div class="nav-cart">
+              <a href="cart.html">  <i class="fa-solid fa-bag-shopping"></i></a>
+            </div>
+
+            <div id="mobile">
+                <i id="bar" class="fas fa-outdent"></i>
+            </div>
+        </div>
+    </header>
+
+    <section id="page-header" class="about-header">
+        <h2>#You Can Contact Us</h2>
+        <p>Your feedback is important to us</p>
+    </section>
+
+    <section id="cart" class="section-p1">
+        <table width="100%">
+            <thead>
+                <tr>
+                    <td>Remove</td>
+                    <td>Image</td>
+                    <td>Product</td>
+                    <td>Price</td>
+                    <td>Quantity</td>
+                    <td>Subtotal</td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><a href=""><i class="fa-solid fa-circle-xmark"></i></a></td>
+                    <td><img src="p1.jpg" alt=""></td>
+                    <td>Colorful Shirt</td>
+                    <td>$599</td>
+                    <td><input type="number" value="1"></td>
+                    <td>$599</td>
+                </tr>
+                <tr>
+                    <td><a href=""><i class="fa-solid fa-circle-xmark"></i></a></td>
+                    <td><img src="p2.jpg" alt=""></td>
+                    <td>Colorful Shirt</td>
+                    <td>$599</td>
+                    <td><input type="number" value="1"></td>
+                    <td>$599</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <section id="cart-add" class="section-p1">
+        <div id="coupon">
+            <h3>Apply Coupon</h3>
+            <div>
+                <input type="text" placeholder="Have any coupon?">
+                <button class="normal">Apply</button>
+            </div>
+        </div>
+
+        <div id="subtotal">
+            <h3>Cart Total</h3>
+            <table>
+                <tr>
+                    <td>Cart Subtotal</td>
+                    <td>$1797</td>
+                </tr>
+                <tr>
+                    <td>Shipping</td>
+                    <td>$0</td>
+                </tr>
+                <tr>
+                    <td><strong>Total</strong></td>
+                    <td><strong>$1797</strong></td>
+                </tr>
+            </table>
+            <button class="normal">Proceed to checkout</button>
+        </div>
+    </section>
+
+   
+
+    <footer class="section-p1">
+        <div class="col">
+            <img class="logof" src="Ajio-Logo.svg" alt="">
+            <h4>Contact</h4>
+            <p><strong>Address:</strong> xxxxx-xxxx-xxxx</p>
+            <p><strong>Phone:</strong>0000-xxxx-xxx</p>
+            <div class="follow">
+                <h4>Follow Us</h4>
+                <div class="icon">
+                    <i class="fab fa-facebook-f"></i>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-instagram"></i>
+                    <i class="fab fa-youtube"></i>
+                </div>
+            </div>
+        </div>
+
+        <div class="col">
+            <h4>About</h4>
+            <a href="#">About Us</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms & Conditions</a>
+            <a href="#">Contact Us</a>
+        </div>
+
+        <div class="col">
+            <h4>Help</h4>
+            <a href="#">Track Your Order</a>
+            <a href="#">Frequently Asked Questions</a>
+            <a href="#">Returns</a>
+            <a href="#">Payments</a>
+            <a href="#">Customer Care</a>
+        </div>
+
+        <div class="col install">
+            <h4>Install App</h4>
+            <p>Available on App Store & Playstore</p>
+            <div class="row">
+                <img src="appstore.jpg" alt="">
+                <img src="play.jpg" alt="">
+                <p>Secured Payment Gateways</p>
+                <img src="pay.png" alt="">
+            </div>
+        </div>
+
+        <div class="copyright">
+            <p>Copyright © 2024 Website Rights</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+
+
+</body>
+
+</html>
